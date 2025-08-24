@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    user:
+      email: user@example.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: BT
+      password: asdfgh123456!@#
+      tenant: project_abc
+cookie:
+  expiry_days: 0
+  key: multitenant_key # Must be string
+  name: multitenant_cookie
+pre-authorized:
+  emails: []

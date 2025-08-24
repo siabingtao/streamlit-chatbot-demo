@@ -1,0 +1,5 @@
+# uv venv
+.venv/
+
+# env files
+.env
